@@ -26,7 +26,7 @@ fun main() {
     }
 }
 
-fun executeCommands(cmds: MutableList<Int>): Int {
+private fun executeCommands(cmds: MutableList<Int>): Int {
     var cursor = 0
 
     do {
